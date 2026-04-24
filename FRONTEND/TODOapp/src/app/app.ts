@@ -15,7 +15,7 @@ export class App {
   apiURL : string;
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://angular-crud-project-8ivy.onrender.com';
+    this.apiURL = 'https://apitarefaspedro230814.onrender.com';
     this.READ_tarefas();
   }
 
